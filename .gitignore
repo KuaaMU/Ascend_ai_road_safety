@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+logs/
+checkpoints/
+data/
+3_edge_deployment/models/
