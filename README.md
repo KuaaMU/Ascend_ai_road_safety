@@ -17,7 +17,7 @@ ascend-ai-road-safety/
 │   ├── phase2_migration_guide.md   # 模型迁移阶段指南
 │   └── phase3_edge_deploy_guide.md # 边缘部署阶段指南
 │
-├── model_training/               # 阶段1: 模型训练 (负责人: [姓名])
+├── model_training/               # 阶段1: 模型训练 (负责人: Hml、Zhl)
 │   ├── src/                        # 训练源代码 (PyTorch/MindSpore)
 │   │   ├── dataset/                # 数据加载与预处理
 │   │   ├── model/                  # 网络模型定义 (如 monoflex.py)
@@ -27,7 +27,7 @@ ascend-ai-road-safety/
 │   ├── configs/                    # 训练配置文件
 │   └── checkpoints/                # (gitignore) 训练好的模型权重
 │
-├── model_migration/              # 阶段2: 模型迁移与转换 (负责人: [姓名])
+├── model_migration/              # 阶段2: 模型迁移与转换 (负责人: xcm)
 │   ├── scripts/                    # 迁移转换脚本
 │   │   ├── 1_pytorch_to_mindspore.py # (可选) 权重转换脚本
 │   │   └── 2_convert_to_mslite.sh  # 核心转换脚本 (ATC/converter_lite)
@@ -35,7 +35,7 @@ ascend-ai-road-safety/
 │   └── validation/                 # 转换后模型验证脚本
 │       └── validate_on_pc.py
 │
-├── edge_deployment/              # 阶段3: 边缘端部署 (负责人: [姓名])
+├── edge_deployment/              # 阶段3: 边缘端部署 (负责人: csk、wqyy、xgh)
 │   ├── src/                        # 部署应用源代码 (香橙派运行)
 │   │   ├── camera/                 # USB摄像头接口
 │   │   ├── inference_engine/       # MindSpore Lite推理引擎
